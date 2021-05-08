@@ -35,6 +35,10 @@ function purchaseClicked(){
     updateCartTotal()
 }
 
+function purchaseTour(){
+    window.alert('Thank you for your purchase')
+}
+
 function removeCartItem(event){
     var buttonClicked = event.target
     buttonClicked.parentElement.parentElement.remove()
